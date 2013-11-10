@@ -7,20 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		750AD0F61822737500817F36 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750AD0F51822737500817F36 /* XCTest.framework */; };
-		750AD0F71822737500817F36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
-		750AD0F81822737500817F36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
-		75BC1D3A182BEA3A00E6A6DF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750AD0F51822737500817F36 /* XCTest.framework */; };
-		75BC1D3B182BEA3A00E6A6DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
-		75BC1D3C182BEA3A00E6A6DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
 		75BC1D50182ED3C500E6A6DF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750AD0F51822737500817F36 /* XCTest.framework */; };
 		75BC1D51182ED3C500E6A6DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
 		75BC1D52182ED3C500E6A6DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
 		75BC1D58182ED3C500E6A6DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75BC1D56182ED3C500E6A6DF /* InfoPlist.strings */; };
 		75BC1D5A182ED3C500E6A6DF /* GuildBrowserMegaTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BC1D59182ED3C500E6A6DF /* GuildBrowserMegaTest.m */; };
 		75BC1D63182ED7FE00E6A6DF /* WoWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2B15E9B34900B3713E /* WoWUtils.m */; };
-		75BC1D64182ED7FE00E6A6DF /* WoWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2B15E9B34900B3713E /* WoWUtils.m */; };
-		75BC1D65182ED7FF00E6A6DF /* WoWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2B15E9B34900B3713E /* WoWUtils.m */; };
 		75BC1D68182ED9E200E6A6DF /* aClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BC1D67182ED9E200E6A6DF /* aClass.m */; };
 		75BC1D69182ED9E200E6A6DF /* aClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BC1D67182ED9E200E6A6DF /* aClass.m */; };
 		75BC1D6D182F868D00E6A6DF /* testAClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BC1D6C182F868D00E6A6DF /* testAClass.m */; };
@@ -31,9 +23,6 @@
 		CB9FDC4C15E9872D00B3713E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDC4B15E9872D00B3713E /* main.m */; };
 		CB9FDC5015E9872D00B3713E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDC4F15E9872D00B3713E /* AppDelegate.m */; };
 		CB9FDC5315E9872D00B3713E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9FDC5115E9872D00B3713E /* MainStoryboard.storyboard */; };
-		CB9FDC5E15E9872E00B3713E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC5D15E9872E00B3713E /* SenTestingKit.framework */; };
-		CB9FDC5F15E9872E00B3713E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
-		CB9FDC6015E9872E00B3713E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
 		CB9FDCD715E9A8DA00B3713E /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC315E9A8DA00B3713E /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CB9FDCD815E9A8DA00B3713E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC515E9A8DA00B3713E /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CB9FDCD915E9A8DA00B3713E /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC715E9A8DA00B3713E /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -78,28 +67,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		750AD1021822737500817F36 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CB9FDC3215E9872D00B3713E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CB9FDC3A15E9872D00B3713E;
-			remoteInfo = GuildBrowser;
-		};
-		75BC1D46182BEA3A00E6A6DF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CB9FDC3215E9872D00B3713E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CB9FDC3A15E9872D00B3713E;
-			remoteInfo = GuildBrowser;
-		};
 		75BC1D5C182ED3C500E6A6DF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CB9FDC3215E9872D00B3713E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CB9FDC3A15E9872D00B3713E;
-			remoteInfo = GuildBrowser;
-		};
-		CB9FDC6115E9872E00B3713E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CB9FDC3215E9872D00B3713E /* Project object */;
 			proxyType = 1;
@@ -109,9 +77,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		750AD0F41822737500817F36 /* GuildBrowser Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GuildBrowser Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		750AD0F51822737500817F36 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		75BC1D39182BEA3A00E6A6DF /* TestingStuff.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingStuff.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75BC1D4F182ED3C500E6A6DF /* GuildBrowserMegaTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuildBrowserMegaTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75BC1D55182ED3C500E6A6DF /* GuildBrowserMegaTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuildBrowserMegaTest-Info.plist"; sourceTree = "<group>"; };
 		75BC1D57182ED3C500E6A6DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -131,7 +97,6 @@
 		CB9FDC4E15E9872D00B3713E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB9FDC4F15E9872D00B3713E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CB9FDC5215E9872D00B3713E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		CB9FDC5C15E9872E00B3713E /* GuildBrowserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuildBrowserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9FDC5D15E9872E00B3713E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		CB9FDCC215E9A8DA00B3713E /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		CB9FDCC315E9A8DA00B3713E /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
@@ -199,26 +164,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		750AD0F11822737500817F36 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				750AD0F61822737500817F36 /* XCTest.framework in Frameworks */,
-				750AD0F81822737500817F36 /* UIKit.framework in Frameworks */,
-				750AD0F71822737500817F36 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75BC1D36182BEA3A00E6A6DF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75BC1D3A182BEA3A00E6A6DF /* XCTest.framework in Frameworks */,
-				75BC1D3C182BEA3A00E6A6DF /* UIKit.framework in Frameworks */,
-				75BC1D3B182BEA3A00E6A6DF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		75BC1D4C182ED3C500E6A6DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,16 +181,6 @@
 				CB9FDC4015E9872D00B3713E /* UIKit.framework in Frameworks */,
 				CB9FDC4215E9872D00B3713E /* Foundation.framework in Frameworks */,
 				CB9FDC4415E9872D00B3713E /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB9FDC5815E9872E00B3713E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CB9FDC5E15E9872E00B3713E /* SenTestingKit.framework in Frameworks */,
-				CB9FDC5F15E9872E00B3713E /* UIKit.framework in Frameworks */,
-				CB9FDC6015E9872E00B3713E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,9 +223,6 @@
 			isa = PBXGroup;
 			children = (
 				CB9FDC3B15E9872D00B3713E /* GuildBrowser.app */,
-				CB9FDC5C15E9872E00B3713E /* GuildBrowserTests.octest */,
-				750AD0F41822737500817F36 /* GuildBrowser Tests.xctest */,
-				75BC1D39182BEA3A00E6A6DF /* TestingStuff.xctest */,
 				75BC1D4F182ED3C500E6A6DF /* GuildBrowserMegaTest.xctest */,
 			);
 			name = Products;
@@ -444,42 +376,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		750AD0F31822737500817F36 /* GuildBrowser Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 750AD1061822737500817F36 /* Build configuration list for PBXNativeTarget "GuildBrowser Tests" */;
-			buildPhases = (
-				750AD0F01822737500817F36 /* Sources */,
-				750AD0F11822737500817F36 /* Frameworks */,
-				750AD0F21822737500817F36 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				750AD1031822737500817F36 /* PBXTargetDependency */,
-			);
-			name = "GuildBrowser Tests";
-			productName = "GuildBrowser Tests";
-			productReference = 750AD0F41822737500817F36 /* GuildBrowser Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		75BC1D38182BEA3A00E6A6DF /* TestingStuff */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 75BC1D4A182BEA3A00E6A6DF /* Build configuration list for PBXNativeTarget "TestingStuff" */;
-			buildPhases = (
-				75BC1D35182BEA3A00E6A6DF /* Sources */,
-				75BC1D36182BEA3A00E6A6DF /* Frameworks */,
-				75BC1D37182BEA3A00E6A6DF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				75BC1D47182BEA3A00E6A6DF /* PBXTargetDependency */,
-			);
-			name = TestingStuff;
-			productName = TestingStuff;
-			productReference = 75BC1D39182BEA3A00E6A6DF /* TestingStuff.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		75BC1D4E182ED3C500E6A6DF /* GuildBrowserMegaTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75BC1D5E182ED3C500E6A6DF /* Build configuration list for PBXNativeTarget "GuildBrowserMegaTest" */;
@@ -515,25 +411,6 @@
 			productReference = CB9FDC3B15E9872D00B3713E /* GuildBrowser.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CB9FDC5B15E9872E00B3713E /* GuildBrowserTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CB9FDC7115E9872E00B3713E /* Build configuration list for PBXNativeTarget "GuildBrowserTests" */;
-			buildPhases = (
-				CB9FDC5715E9872E00B3713E /* Sources */,
-				CB9FDC5815E9872E00B3713E /* Frameworks */,
-				CB9FDC5915E9872E00B3713E /* Resources */,
-				CB9FDC5A15E9872E00B3713E /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CB9FDC6215E9872E00B3713E /* PBXTargetDependency */,
-			);
-			name = GuildBrowserTests;
-			productName = GuildBrowserTests;
-			productReference = CB9FDC5C15E9872E00B3713E /* GuildBrowserTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -543,12 +420,6 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Charlie Fulton";
 				TargetAttributes = {
-					750AD0F31822737500817F36 = {
-						TestTargetID = CB9FDC3A15E9872D00B3713E;
-					};
-					75BC1D38182BEA3A00E6A6DF = {
-						TestTargetID = CB9FDC3A15E9872D00B3713E;
-					};
 					75BC1D4E182ED3C500E6A6DF = {
 						TestTargetID = CB9FDC3A15E9872D00B3713E;
 					};
@@ -567,29 +438,12 @@
 			projectRoot = "";
 			targets = (
 				CB9FDC3A15E9872D00B3713E /* GuildBrowser */,
-				CB9FDC5B15E9872E00B3713E /* GuildBrowserTests */,
-				750AD0F31822737500817F36 /* GuildBrowser Tests */,
-				75BC1D38182BEA3A00E6A6DF /* TestingStuff */,
 				75BC1D4E182ED3C500E6A6DF /* GuildBrowserMegaTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		750AD0F21822737500817F36 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75BC1D37182BEA3A00E6A6DF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		75BC1D4D182ED3C500E6A6DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -627,47 +481,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB9FDC5915E9872E00B3713E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		CB9FDC5A15E9872E00B3713E /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		750AD0F01822737500817F36 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75BC1D64182ED7FE00E6A6DF /* WoWUtils.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75BC1D35182BEA3A00E6A6DF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		75BC1D4B182ED3C500E6A6DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -710,36 +526,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB9FDC5715E9872E00B3713E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75BC1D65182ED7FF00E6A6DF /* WoWUtils.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		750AD1031822737500817F36 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CB9FDC3A15E9872D00B3713E /* GuildBrowser */;
-			targetProxy = 750AD1021822737500817F36 /* PBXContainerItemProxy */;
-		};
-		75BC1D47182BEA3A00E6A6DF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CB9FDC3A15E9872D00B3713E /* GuildBrowser */;
-			targetProxy = 75BC1D46182BEA3A00E6A6DF /* PBXContainerItemProxy */;
-		};
 		75BC1D5D182ED3C500E6A6DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CB9FDC3A15E9872D00B3713E /* GuildBrowser */;
 			targetProxy = 75BC1D5C182ED3C500E6A6DF /* PBXContainerItemProxy */;
-		};
-		CB9FDC6215E9872E00B3713E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CB9FDC3A15E9872D00B3713E /* GuildBrowser */;
-			targetProxy = CB9FDC6115E9872E00B3713E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -771,146 +564,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		750AD1041822737500817F36 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GuildBrowser.app/GuildBrowser";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GuildBrowser Tests/GuildBrowser Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "GuildBrowser Tests/GuildBrowser Tests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		750AD1051822737500817F36 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GuildBrowser.app/GuildBrowser";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				ENABLE_NS_ASSERTIONS = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GuildBrowser Tests/GuildBrowser Tests-Prefix.pch";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "GuildBrowser Tests/GuildBrowser Tests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
-		75BC1D48182BEA3A00E6A6DF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GuildBrowser.app/GuildBrowser";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestingStuff/TestingStuff-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "TestingStuff/TestingStuff-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		75BC1D49182BEA3A00E6A6DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GuildBrowser.app/GuildBrowser";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				ENABLE_NS_ASSERTIONS = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestingStuff/TestingStuff-Prefix.pch";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "TestingStuff/TestingStuff-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 		75BC1D5F182ED3C500E6A6DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1060,60 +713,9 @@
 			};
 			name = Release;
 		};
-		CB9FDC7215E9872E00B3713E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GuildBrowser.app/GuildBrowser";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
-				INFOPLIST_FILE = "GuildBrowserTests/GuildBrowserTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		CB9FDC7315E9872E00B3713E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GuildBrowser.app/GuildBrowser";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
-				INFOPLIST_FILE = "GuildBrowserTests/GuildBrowserTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		750AD1061822737500817F36 /* Build configuration list for PBXNativeTarget "GuildBrowser Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				750AD1041822737500817F36 /* Debug */,
-				750AD1051822737500817F36 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		75BC1D4A182BEA3A00E6A6DF /* Build configuration list for PBXNativeTarget "TestingStuff" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				75BC1D48182BEA3A00E6A6DF /* Debug */,
-				75BC1D49182BEA3A00E6A6DF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		75BC1D5E182ED3C500E6A6DF /* Build configuration list for PBXNativeTarget "GuildBrowserMegaTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1121,6 +723,7 @@
 				75BC1D60182ED3C500E6A6DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB9FDC3515E9872D00B3713E /* Build configuration list for PBXProject "GuildBrowser" */ = {
 			isa = XCConfigurationList;
@@ -1136,15 +739,6 @@
 			buildConfigurations = (
 				CB9FDC6F15E9872E00B3713E /* Debug */,
 				CB9FDC7015E9872E00B3713E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CB9FDC7115E9872E00B3713E /* Build configuration list for PBXNativeTarget "GuildBrowserTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CB9FDC7215E9872E00B3713E /* Debug */,
-				CB9FDC7315E9872E00B3713E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
