@@ -38,6 +38,36 @@
                ReferencedContainer = "container:GuildBrowser.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "750AD0F31822737500817F36"
+               BuildableName = "GuildBrowser Tests.xctest"
+               BlueprintName = "GuildBrowser Tests"
+               ReferencedContainer = "container:GuildBrowser.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "75BC1D38182BEA3A00E6A6DF"
+               BuildableName = "TestingStuff.xctest"
+               BlueprintName = "TestingStuff"
+               ReferencedContainer = "container:GuildBrowser.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "75BC1D4E182ED3C500E6A6DF"
+               BuildableName = "GuildBrowserMegaTest.xctest"
+               BlueprintName = "GuildBrowserMegaTest"
+               ReferencedContainer = "container:GuildBrowser.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
